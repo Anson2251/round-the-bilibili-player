@@ -37,6 +37,11 @@
         #bilibili-player-placeholder {
             visibility: hidden;
         }
+
+        .bpx-player-container:is(.bpx-state-no-cursor) {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+        }
     `;
 
     document.body.appendChild(style);
